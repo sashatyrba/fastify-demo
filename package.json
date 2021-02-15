@@ -1,0 +1,39 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "ajv": "7.1.0",
+    "ajv-formats": "1.5.1",
+    "argon2": "0.27.1",
+    "fastify": "3.11.0",
+    "fastify-cors": "5.2.0",
+    "fastify-jwt": "2.3.0",
+    "fastify-oas": "3.0.8",
+    "fastify-swagger": "4.3.1",
+    "knex": "0.21.17",
+    "objection": "2.2.14",
+    "pg": "8.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.25",
+    "@typescript-eslint/eslint-plugin": "4.14.2",
+    "@typescript-eslint/parser": "4.14.2",
+    "dotenv": "8.2.0",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-jest": "24.1.3",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "jest": "26.6.3",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  }
+}
